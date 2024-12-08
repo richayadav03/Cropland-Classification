@@ -28,7 +28,44 @@ Random Forest (RF)
 | Landsat8  | 97.82 | 97.82 | 95.65 |
 | Sentinel2 | 98.05 | 96.11 | 98.05 |
 
-The overall accuracy of the sentinel-2 satellite by SVM classifier is 98.05%. The Producer accuracy of the sentinel-2 satellite by SVM classifier is 95.12% and 96.77%. The Consumer accuracy of the sentinel-2 satellite by SVM classifier is 95.12% and 96.77%. The overall accuracy of the sentinel-2 satellite by Cart classifier is 96.11%. The Producer accuracy of the sentinel-2 satellite by SVM classifier is 97.56% and 98.38%. The Consumer accuracy of the sentinel-2 satellite by SVM classifier is 97.56% and 98.38% The overall accuracy of the sentinel-2 satellite by Random Forest classifier is 98.05%. The Producer accuracy of the sentinel-2 satellite by SVM classifier is 97.56% and 98.38%. The Consumer accuracy of the sentinel-2 satellite by SVM classifier is 97.56% and 98.38%. The overall accuracy of the Landsat satellite by SVM classifier is 98.05%. The Producer accuracy of the Landsat satellite by SVM classifier is 98.60% and 96.42%. The Consumer accuracy of the Landsat satellite by SVM classifier is 94.73% and 95.90%. The overall accuracy of the Landsat satellite by Cart classifier is 96.11%. The Producer accuracy of the Landsat satellite by SVM classifier is 97.22% and 98.21%. The Consumer accuracy of the Landsat satellite by SVM classifier is 97.22% and 98.21%. The overall accuracy of the Landsat satellite by Random Forest classifier is 98.05%. The Producer accuracy of the Landsat satellite by SVM classifier is 94.44% and 96.42%. The Consumer accuracy of the Landsat satellite by SVM classifier is 94.44% and 94.42%.
+# Accuracy Metrics of Satellite Classification Using SVM, CART, and Random Forest
+
+## Sentinel-2 Satellite Classification Results
+
+### SVM Classifier
+- **Overall Accuracy**: 98.05%
+- **Producer Accuracy**: 95.12% and 96.77%
+- **Consumer Accuracy**: 95.12% and 96.77%
+
+### CART Classifier
+- **Overall Accuracy**: 96.11%
+- **Producer Accuracy**: 97.56% and 98.38%
+- **Consumer Accuracy**: 97.56% and 98.38%
+
+### Random Forest Classifier
+- **Overall Accuracy**: 98.05%
+- **Producer Accuracy**: 97.56% and 98.38%
+- **Consumer Accuracy**: 97.56% and 98.38%
+
+---
+
+## Landsat Satellite Classification Results
+
+### SVM Classifier
+- **Overall Accuracy**: 98.05%
+- **Producer Accuracy**: 98.60% and 96.42%
+- **Consumer Accuracy**: 94.73% and 95.90%
+
+### CART Classifier
+- **Overall Accuracy**: 96.11%
+- **Producer Accuracy**: 97.22% and 98.21%
+- **Consumer Accuracy**: 97.22% and 98.21%
+
+### Random Forest Classifier
+- **Overall Accuracy**: 98.05%
+- **Producer Accuracy**: 94.44% and 96.42%
+- **Consumer Accuracy**: 94.44% and 94.42%
+
 
 ![image](https://github.com/user-attachments/assets/f5916bc0-6884-49e6-8adf-daa9d4cc45d4)
 
