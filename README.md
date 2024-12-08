@@ -38,6 +38,8 @@ The classifiers were applied to both Sentinel-2 and Landsat-8 data using GEE. Th
 - Applying classification algorithms.  
 - Validating results with accuracy metrics.  
 
+![image](https://github.com/user-attachments/assets/2c589155-e740-4bfc-b67e-91db70bf0ea7)
+
 ---
 
 ## **Results and Conclusions**  
