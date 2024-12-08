@@ -4,49 +4,53 @@ Comparing various ML techniques on Sentinel and Landsat data for analyzing cropl
 
 
 ## Introduction
-A comparison between machine learning algorithms on Sentinel-2 and Landsat satellite imagery for cropland extent categorization is made using the example of Gujarat state, India. The following three classifiers: Support Vector Machine (SVM), Classification and Regression Trees (CART), and Random Forest were employed to analyze the precision of the classifications on GEE. For Sentinel-2 data, SVM achieved a good level of overall accuracy of 98.05%, where manager and consumer accuracies are equal to (95.12-96.77)%. CART and Random Forest classifiers also showed high output accuracy of 96.11% and 98.05%, being nearly similar to SVMs about accuracy. 
+This project evaluates the performance of three machine learning classifiers—Support Vector Machine (SVM), Classification and Regression Trees (CART), and Random Forest (RF)—on Sentinel-2 and Landsat satellite imagery for cropland extent classification in Gujarat, India.
 
-Furthermore, for Landsat satellite data, the SVM classifier attained 98.05% overall accuracy with the rest of the classifiers; CART gained 96.11%, and Random Forest achieved 98.05% respectively. These findings demonstrate the superiority of machine learning algorithms in precisely classifying cropland from image satellite imagery, which in turn offers crucial information to the environment monitoring and land management applications in the area.
+For Sentinel-2, SVM achieved the highest overall accuracy of **98.05%**, with producer and consumer accuracies ranging from **95.12% to 96.77%**. CART and RF classifiers also performed well, achieving accuracies of **96.11%** and **98.05%**, respectively.
+
+For Landsat data, SVM again reached an overall accuracy of **98.05%**, while CART and RF classifiers achieved **96.11%** and **98.05%**, respectively. These results demonstrate the robustness of machine learning algorithms in satellite image-based land classification.
 
 ![image](https://github.com/user-attachments/assets/87a550c7-ad5e-4ec2-859e-f15c05c4ba1c)
-## Dataset
-Sentinel-2 and Landsat-8, satellites, will be used for the classification process in this work, which will be based on cropland extent mapping in the Gujarat region. Satellites with such designated capabilities supply high-resolution imagery with multiple spectral bands, which leads to precise determination of land cover.
 
-To begin, it is necessary to examine the effects of the pairing of bands which will show the difference in the structure of the image. Hence, they can be seen in a mix of the detectors of plant-based, soil, and ocean parameters. One of the significant advantages of remote sensing is that this technique exploits the differences between the types of land cover using a smart combination of sensors, thus giving much better results.
+## Dataset
+This analysis uses high-resolution imagery from Sentinel-2 and Landsat-8 satellites, focusing on cropland extent mapping in Gujarat. These satellites provide multi-spectral data, enabling precise land-cover classification.
+
+To begin with, it is necessary to examine the effects of the pairing of bands which will show the difference in the structure of the image. Hence, they can be seen in a mix of the detectors of plant-based, soil, and ocean parameters. One of the significant advantages of remote sensing is that this technique exploits the differences between the types of land cover using a smart combination of sensors, thus giving much better results.
 
 ## Methodology
-
-Support Vector Machine (SVM)
-Classification and Regression Trees (CART)
-Random Forest (RF)
+The following classifiers were implemented for the analysis:
+1. **Support Vector Machine (SVM)**
+2. **Classification and Regression Trees (CART)**
+3. **Random Forest (RF)**
 
 ![image](https://github.com/user-attachments/assets/2c589155-e740-4bfc-b67e-91db70bf0ea7)
 
-## Results and Conclusion
-|           |    SVM   |    CART   |    RF        |
+# Results and Conclusion
+## Overall Accuracy Comparison
+|           |    SVM (%)   |    CART (%)    |    RF (%)         |
 | :-------- | :------- | :-------- | :----------|
 | Landsat8  | 97.82 | 97.82 | 95.65 |
 | Sentinel2 | 98.05 | 96.11 | 98.05 |
 
-# Accuracy Metrics of Satellite Classification Using SVM, CART, and Random Forest
+---
 
 ## Sentinel-2 Satellite Classification Results
 
-| Classifier       | Overall Accuracy | Producer Accuracy (%) | Consumer Accuracy (%) |
+| Classifier       | Overall Accuracy (%) | Producer Accuracy (%) | Consumer Accuracy (%) |
 |-------------------|------------------|------------------------|------------------------|
-| **SVM**          | 98.05%          | 95.12, 96.77          | 95.12, 96.77          |
-| **CART**         | 96.11%          | 97.56, 98.38          | 97.56, 98.38          |
-| **Random Forest**| 98.05%          | 97.56, 98.38          | 97.56, 98.38          |
+| **SVM**          | 98.05          | 95.12, 96.77          | 95.12, 96.77          |
+| **CART**         | 96.11         | 97.56, 98.38          | 97.56, 98.38          |
+| **Random Forest**| 98.05         | 97.56, 98.38          | 97.56, 98.38          |
 
 ---
 
-## Landsat Satellite Classification Results
+## Landsat-8 Satellite Classification Results
 
-| Classifier       | Overall Accuracy | Producer Accuracy (%) | Consumer Accuracy (%) |
+| Classifier       | Overall Accuracy (%)  | Producer Accuracy (%) | Consumer Accuracy (%) |
 |-------------------|------------------|------------------------|------------------------|
-| **SVM**          | 98.05%          | 98.60, 96.42          | 94.73, 95.90          |
-| **CART**         | 96.11%          | 97.22, 98.21          | 97.22, 98.21          |
-| **Random Forest**| 98.05%          | 94.44, 96.42          | 94.44, 94.42          |
+| **SVM**          | 98.05          | 98.60, 96.42          | 94.73, 95.90          |
+| **CART**         | 96.11          | 97.22, 98.21          | 97.22, 98.21          |
+| **Random Forest**| 98.05         | 94.44, 96.42          | 94.44, 94.42          |
 
 
 
