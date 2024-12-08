@@ -32,39 +32,22 @@ Random Forest (RF)
 
 ## Sentinel-2 Satellite Classification Results
 
-### SVM Classifier
-- **Overall Accuracy**: 98.05%
-- **Producer Accuracy**: 95.12% and 96.77%
-- **Consumer Accuracy**: 95.12% and 96.77%
-
-### CART Classifier
-- **Overall Accuracy**: 96.11%
-- **Producer Accuracy**: 97.56% and 98.38%
-- **Consumer Accuracy**: 97.56% and 98.38%
-
-### Random Forest Classifier
-- **Overall Accuracy**: 98.05%
-- **Producer Accuracy**: 97.56% and 98.38%
-- **Consumer Accuracy**: 97.56% and 98.38%
+| Classifier       | Overall Accuracy | Producer Accuracy (%) | Consumer Accuracy (%) |
+|-------------------|------------------|------------------------|------------------------|
+| **SVM**          | 98.05%          | 95.12, 96.77          | 95.12, 96.77          |
+| **CART**         | 96.11%          | 97.56, 98.38          | 97.56, 98.38          |
+| **Random Forest**| 98.05%          | 97.56, 98.38          | 97.56, 98.38          |
 
 ---
 
 ## Landsat Satellite Classification Results
 
-### SVM Classifier
-- **Overall Accuracy**: 98.05%
-- **Producer Accuracy**: 98.60% and 96.42%
-- **Consumer Accuracy**: 94.73% and 95.90%
+| Classifier       | Overall Accuracy | Producer Accuracy (%) | Consumer Accuracy (%) |
+|-------------------|------------------|------------------------|------------------------|
+| **SVM**          | 98.05%          | 98.60, 96.42          | 94.73, 95.90          |
+| **CART**         | 96.11%          | 97.22, 98.21          | 97.22, 98.21          |
+| **Random Forest**| 98.05%          | 94.44, 96.42          | 94.44, 94.42          |
 
-### CART Classifier
-- **Overall Accuracy**: 96.11%
-- **Producer Accuracy**: 97.22% and 98.21%
-- **Consumer Accuracy**: 97.22% and 98.21%
-
-### Random Forest Classifier
-- **Overall Accuracy**: 98.05%
-- **Producer Accuracy**: 94.44% and 96.42%
-- **Consumer Accuracy**: 94.44% and 94.42%
 
 
 ![image](https://github.com/user-attachments/assets/f5916bc0-6884-49e6-8adf-daa9d4cc45d4)
